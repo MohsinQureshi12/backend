@@ -15,6 +15,7 @@ const User = new Schema({
   },
   image: {
     type: String,
+    require:true
  
   }
 });
